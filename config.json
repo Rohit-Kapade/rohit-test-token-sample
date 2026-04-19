@@ -1,0 +1,26 @@
+{
+  "active_model_key": "gpt-5-nano",
+  "active_prompt_key": "analyst",
+  "temperature": 0.2,
+  "max_completion_tokens": 500,
+  "models": {
+    "gpt-5-nano": {
+      "label": "gpt-5 nano",
+      "provider": "openai",
+      "model_name": "gpt-5-nano",
+      "env_api_key": "OPENAI_API_KEY"
+    },
+    "gpt5-mini": {
+      "label": "gpt5 mini",
+      "provider": "openai",
+      "model_name": "gpt-5.4-mini",
+      "env_api_key": "OPENAI_API_KEY"
+    },
+    "llama-3.2": {
+      "label": "llama 3.2",
+      "provider": "ollama",
+      "model_name": "llama3.2",
+      "base_url_env": "OLLAMA_BASE_URL"
+    }
+  }
+}
